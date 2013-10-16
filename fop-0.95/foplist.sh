@@ -1,0 +1,4 @@
+#java -jar foplist.jar
+#java -cp ../lib/*:foplist.jar ru.nic.fop.FOListener
+
+"/usr/bin/java" -classpath "/srvs/fop-jetty/fop/lib/xmlgraphics-commons-1.3.1.jar:/srvs/fop-jetty/fop/lib/xml-apis-ext-1.3.04.jar:/srvs/fop-jetty/fop/lib/xml-apis-1.3.04.jar:/srvs/fop-jetty/fop/lib/xercesImpl-2.7.1.jar:/srvs/fop-jetty/fop/lib/xalan-2.7.0.jar:/srvs/fop-jetty/fop/lib/servlet-2.2.jar:/srvs/fop-jetty/fop/lib/serializer-2.7.0.jar:/srvs/fop-jetty/fop/lib/jdom-1.0.jar:/srvs/fop-jetty/fop/lib/commons-logging-1.0.4.jar:/srvs/fop-jetty/fop/lib/commons-io-1.3.1.jar:/srvs/fop-jetty/fop/lib/commons-cli-1.0.jar:/srvs/fop-jetty/fop/lib/batik-all-1.7.jar:/srvs/fop-jetty/fop/lib/barcode4j-fop-ext-complete.jar:/srvs/fop-jetty/fop/lib/avalon-framework-4.2.0.jar:/srvs/fop-jetty/fop/build/fop.jar:/srvs/fop-jetty/fop/build/fop-sandbox.jar:/srvs/fop-jetty/fop/build/fop-hyph.jar:/srvs/fop-jetty/lib/fop/foplist.jar" ru.nic.fop.FOListener -c /srvs/fop-jetty/conf/fop.conf
