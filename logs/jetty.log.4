@@ -1,0 +1,918 @@
+INFO 2013-12-22 09:37:55,333 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-22 09:37:55,334 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - xRequestId: 1387701475334@127.0.0.1_55042
+INFO 2013-12-22 09:37:55,334 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-22 09:37:55,335 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-22 09:37:55,335 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-22 09:37:55,335 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-22 09:37:55,335 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-22 09:37:55,336 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML size 2152
+INFO 2013-12-22 09:37:55,336 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4192</number><date>22.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Алена</name><email>anela1891@yandex.ru</email><phone>8909-689-82-59</phone><address>Новочеремушкинская 63 корп 1 кв 37</address></customer><recipient><name>Алена</name><email>anela1891@yandex.ru</email><phone>8909-689-82-59</phone><address>Новочеремушкинская 63 корп 1 кв 37</address></recipient><notes><customer>просьба доставить заказ 24.12.2013</customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Школьный ранец-рюкзак JWORLD &amp;#8220;POLYPOP&amp;#8221; цвет Shadow Puzzle  арт. RBS16SPK на колесах  (1-3 классы; 15 литров)</name><sku>RBS16SPK</sku><qty>1</qty><price>5 800 руб</price><single_price>5 800 руб</single_price><weight><value>2.00</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>5 800 руб</value></total><total><name>Доставка</name><value> Курьером, в границах старой Москвы:  200 руб</value></total><total><name>Итого</name><value>6 000 руб</value></total></totals></document>
+
+INFO 2013-12-22 09:37:55,337 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-22 09:37:55,337 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-22 09:37:55,338 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-22 09:37:55,338 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-22 09:37:55,338 qtp896693169-16 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-22 09:37:55,338 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-22 09:37:55,338 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-22 09:37:55,338 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xml: 2152 bytes
+INFO 2013-12-22 09:37:55,338 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-22 09:37:55,338 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-22 09:37:55,338 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-22 09:37:55,353 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-22 09:37:55,369 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-22 09:37:55,369 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-22 09:37:55,444 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-22 09:37:55,444 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-22 09:37:55,444 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-22 09:37:55,444 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-22 09:37:55,444 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-22 09:37:55,445 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-22 09:37:55,445 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-22 09:37:55,459 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-22 09:37:55,474 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-22 09:37:55,474 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-22 09:37:55,545 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-22 09:37:55,545 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-22 09:37:55,545 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-22 09:37:55,545 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-22 09:37:55,545 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-22 09:37:55,545 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-22 09:37:55,545 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-22 09:37:55,545 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-22 09:37:55,545 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-22 09:37:55,546 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-22 09:37:55,546 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-22 09:37:55,546 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - End request
+WARN 2013-12-22 19:10:18,407 qtp896693169-18 org.eclipse.jetty.servlet.ServletHandler - //CluJaNuL/cmd.jsp
+java.lang.NullPointerException
+	at java.net.URLEncoder.encode(URLEncoder.java:205)
+	at java.net.URLEncoder.encode(URLEncoder.java:171)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:474)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+WARN 2013-12-22 19:10:18,470 qtp896693169-16 org.eclipse.jetty.servlet.ServletHandler - //wstats/wstats.jsp
+java.lang.NullPointerException
+	at java.net.URLEncoder.encode(URLEncoder.java:205)
+	at java.net.URLEncoder.encode(URLEncoder.java:171)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:474)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+WARN 2013-12-22 19:10:18,583 qtp896693169-17 org.eclipse.jetty.servlet.ServletHandler - //bynazi/cmd.jsp
+java.lang.NullPointerException
+	at java.net.URLEncoder.encode(URLEncoder.java:205)
+	at java.net.URLEncoder.encode(URLEncoder.java:171)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:474)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+INFO 2013-12-23 07:21:28,770 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-23 07:21:28,770 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - xRequestId: 1387779688770@127.0.0.1_35266
+INFO 2013-12-23 07:21:28,770 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-23 07:21:28,771 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-23 07:21:28,771 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-23 07:21:28,772 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-23 07:21:28,772 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-23 07:21:28,772 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML size 2666
+INFO 2013-12-23 07:21:28,772 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4193</number><date>23.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Евгений павлович</name><email>marina@kidberries.com</email><phone>84956833110</phone><address></address></customer><recipient><name>Евгений павлович</name><email>marina@kidberries.com</email><phone>84956833110</phone><address></address></recipient><notes><customer>на выбор</customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Школьный ранец-рюкзак &amp;#8220;Wheelpak&amp;#8221; CRUZE pink на колесах WLP2188 (3-5 класс, 21 литр)</name><sku>WLP2188</sku><qty>1</qty><price>6 550 руб</price><single_price>6 550 руб</single_price><weight><value>2.600</value><unit>кг</unit></weight></item><item><name>Школьный ранец-рюкзак &amp;#8220;Wheelpak&amp;#8221; Zenith purple на колесах WLP2143 (5-7 класс, 25 литр)</name><sku>WLP2143</sku><qty>1</qty><price>6 950 руб</price><single_price>6 950 руб</single_price><weight><value>2.900</value><unit>кг</unit></weight></item><item><name>Универсальный ранец-рюкзак JWORLD &amp;#8220;Sunrise&amp;#8221; цвет Garden Purple арт. RBS18011 на колесах  (23 литра)</name><sku>RBS18011</sku><qty>1</qty><price>6 200 руб</price><single_price>6 200 руб</single_price><weight><value>2.300</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>19 700 руб</value></total><total><name>Доставка</name><value>Самовывоз: г. Москва, ст.м. "Китай-город"</value></total><total><name>Итого</name><value>19 700 руб</value></total></totals></document>
+
+INFO 2013-12-23 07:21:28,773 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-23 07:21:28,774 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-23 07:21:28,774 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-23 07:21:28,774 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-23 07:21:28,774 qtp896693169-14 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-23 07:21:28,774 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-23 07:21:28,774 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-23 07:21:28,774 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - xml: 2666 bytes
+INFO 2013-12-23 07:21:28,774 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-23 07:21:28,774 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-23 07:21:28,774 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-23 07:21:28,790 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-23 07:21:28,806 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-23 07:21:28,806 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-23 07:21:28,905 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-23 07:21:28,905 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-23 07:21:28,905 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-23 07:21:28,905 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-23 07:21:28,905 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-23 07:21:28,905 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-23 07:21:28,905 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-23 07:21:28,920 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-23 07:21:28,937 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-23 07:21:28,938 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-23 07:21:29,042 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-23 07:21:29,042 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-23 07:21:29,042 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-23 07:21:29,042 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-23 07:21:29,042 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-23 07:21:29,042 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-23 07:21:29,042 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-23 07:21:29,042 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-23 07:21:29,042 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-23 07:21:29,043 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-23 07:21:29,043 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-23 07:21:29,043 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-23 07:57:46,364 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-23 07:57:46,364 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - xRequestId: 1387781866364@127.0.0.1_35698
+INFO 2013-12-23 07:57:46,364 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-23 07:57:46,365 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-23 07:57:46,365 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-23 07:57:46,365 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-23 07:57:46,365 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-23 07:57:46,366 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML size 2095
+INFO 2013-12-23 07:57:46,366 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4194</number><date>23.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Антон, Галина Николаевна</name><email>marina@kidberries.com</email><phone>84959190227</phone><address>ферганская 11 корп 2 кв 75</address></customer><recipient><name>Антон, Галина Николаевна</name><email>marina@kidberries.com</email><phone>84959190227</phone><address>ферганская 11 корп 2 кв 75</address></recipient><notes><customer></customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Школьный ранец-рюкзак Safta Benetton UCB ST35400 (1-3 класс, 18 литр) с тележкой на колесах</name><sku>ST35400</sku><qty>1</qty><price>3 600 руб</price><single_price>3 600 руб</single_price><weight><value>1.500</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>3 600 руб</value></total><total><name>Доставка</name><value> Курьером, в границах старой Москвы:  200 руб</value></total><total><name>Итого</name><value>3 800 руб</value></total></totals></document>
+
+INFO 2013-12-23 07:57:46,367 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-23 07:57:46,368 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-23 07:57:46,368 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-23 07:57:46,368 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-23 07:57:46,368 qtp896693169-17 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-23 07:57:46,368 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-23 07:57:46,368 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-23 07:57:46,368 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - xml: 2095 bytes
+INFO 2013-12-23 07:57:46,368 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-23 07:57:46,368 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-23 07:57:46,368 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-23 07:57:46,385 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-23 07:57:46,400 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-23 07:57:46,400 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-23 07:57:46,493 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-23 07:57:46,493 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-23 07:57:46,493 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-23 07:57:46,493 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-23 07:57:46,493 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-23 07:57:46,493 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-23 07:57:46,493 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-23 07:57:46,513 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-23 07:57:46,531 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-23 07:57:46,532 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-23 07:57:46,607 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-23 07:57:46,608 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-23 08:17:40,179 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-23 08:17:40,179 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - xRequestId: 1387783060179@127.0.0.1_36316
+INFO 2013-12-23 08:17:40,179 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-23 08:17:40,180 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-23 08:17:40,180 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-23 08:17:40,180 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-23 08:17:40,180 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-23 08:17:40,181 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML size 2027
+INFO 2013-12-23 08:17:40,181 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4195</number><date>23.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Сергей</name><email>s2251@mail.ru</email><phone>+7 985 222 6251</phone><address>Зеленый проспект, дом 11, кв. 31</address></customer><recipient><name>Сергей</name><email>s2251@mail.ru</email><phone>+7 985 222 6251</phone><address>Зеленый проспект, дом 11, кв. 31</address></recipient><notes><customer></customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Школьный ранец-рюкзак &amp;#8220;Wheelpak&amp;#8221; Base pink на колесах WLP2173 (3-5 класс, 21 литр)</name><sku>WLP2173</sku><qty>1</qty><price>6 550 руб</price><single_price>6 550 руб</single_price><weight><value>2.600</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>6 550 руб</value></total><total><name>Доставка</name><value>Курьером, в границах старой Москвы</value></total><total><name>Итого</name><value>6 550 руб</value></total></totals></document>
+
+INFO 2013-12-23 08:17:40,183 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-23 08:17:40,184 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-23 08:17:40,184 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-23 08:17:40,184 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-23 08:17:40,184 qtp896693169-14 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-23 08:17:40,185 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-23 08:17:40,185 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-23 08:17:40,185 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - xml: 2027 bytes
+INFO 2013-12-23 08:17:40,185 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-23 08:17:40,185 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-23 08:17:40,185 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-23 08:17:40,208 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-23 08:17:40,228 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-23 08:17:40,228 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-23 08:17:40,307 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-23 08:17:40,307 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-23 08:17:40,307 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-23 08:17:40,307 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-23 08:17:40,307 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-23 08:17:40,307 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-23 08:17:40,307 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-23 08:17:40,321 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-23 08:17:40,335 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-23 08:17:40,335 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-23 08:17:40,405 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-23 08:17:40,406 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-23 08:58:07,081 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-23 08:58:07,081 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - xRequestId: 1387785487081@127.0.0.1_36697
+INFO 2013-12-23 08:58:07,081 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-23 08:58:07,082 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-23 08:58:07,082 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-23 08:58:07,082 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-23 08:58:07,082 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-23 08:58:07,083 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML size 2135
+INFO 2013-12-23 08:58:07,083 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4196</number><date>23.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Андрей</name><email>andreyp2001_01@mail.ru</email><phone>+79262955555</phone><address>ул.Бутлерова,д.7</address></customer><recipient><name>Андрей</name><email>andreyp2001_01@mail.ru</email><phone>+79262955555</phone><address>ул.Бутлерова,д.7</address></recipient><notes><customer>административное здание, позвонить с проходной. Доставка в рабочие дни с 10 до 17</customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Школьный ранец-рюкзак &amp;#8220;Wheelpak&amp;#8221; Base pink на колесах WLP2173 (3-5 класс, 21 литр)</name><sku>WLP2173</sku><qty>1</qty><price>6 550 руб</price><single_price>6 550 руб</single_price><weight><value>2.600</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>6 550 руб</value></total><total><name>Доставка</name><value>Курьером, в границах старой Москвы</value></total><total><name>Итого</name><value>6 550 руб</value></total></totals></document>
+
+INFO 2013-12-23 08:58:07,084 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-23 08:58:07,085 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-23 08:58:07,085 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-23 08:58:07,085 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-23 08:58:07,085 qtp896693169-16 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-23 08:58:07,085 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-23 08:58:07,085 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-23 08:58:07,085 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xml: 2135 bytes
+INFO 2013-12-23 08:58:07,085 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-23 08:58:07,085 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-23 08:58:07,085 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-23 08:58:07,101 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-23 08:58:07,120 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-23 08:58:07,120 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-23 08:58:07,268 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-23 08:58:07,268 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-23 08:58:07,268 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-23 08:58:07,268 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-23 08:58:07,268 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-23 08:58:07,268 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-23 08:58:07,268 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-23 08:58:07,305 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-23 08:58:07,336 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-23 08:58:07,336 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-23 08:58:07,484 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-23 08:58:07,484 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-23 08:58:07,484 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-23 08:58:07,484 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-23 08:58:07,484 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-23 08:58:07,484 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-23 08:58:07,484 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-23 08:58:07,484 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-23 08:58:07,484 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-23 08:58:07,485 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-23 08:58:07,485 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-23 08:58:07,485 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-23 13:45:54,065 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-23 13:45:54,065 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - xRequestId: 1387802754065@127.0.0.1_40339
+INFO 2013-12-23 13:45:54,065 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-23 13:45:54,066 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-23 13:45:54,066 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-23 13:45:54,066 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-23 13:45:54,066 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-23 13:45:54,067 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML size 2063
+INFO 2013-12-23 13:45:54,067 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4197</number><date>23.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Дмитрий</name><email>sdk70@mail.ru</email><phone>89685331628</phone><address>г.Москва,ул.Ак.Варги,д.26Б</address></customer><recipient><name>Дмитрий</name><email>sdk70@mail.ru</email><phone>89685331628</phone><address>г.Москва,ул.Ак.Варги,д.26Б</address></recipient><notes><customer></customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Школьный ранец-рюкзак Sanrio Hello Kitty MA07P (0-3 класс, 15 литр) с тележкой на колесах + сумка для сменной обуви</name><sku>MA07P</sku><qty>1</qty><price>4 800 руб</price><single_price>4 800 руб</single_price><weight><value>1.750</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>4 800 руб</value></total><total><name>Доставка</name><value> Курьером, в границах старой Москвы:  200 руб</value></total><total><name>Итого</name><value>5 000 руб</value></total></totals></document>
+
+INFO 2013-12-23 13:45:54,068 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-23 13:45:54,069 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-23 13:45:54,069 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-23 13:45:54,069 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-23 13:45:54,069 qtp896693169-17 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-23 13:45:54,069 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-23 13:45:54,069 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-23 13:45:54,069 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - xml: 2063 bytes
+INFO 2013-12-23 13:45:54,069 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-23 13:45:54,069 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-23 13:45:54,069 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-23 13:45:54,086 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-23 13:45:54,101 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-23 13:45:54,101 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-23 13:45:54,185 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-23 13:45:54,185 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-23 13:45:54,185 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-23 13:45:54,185 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-23 13:45:54,185 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-23 13:45:54,185 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-23 13:45:54,185 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-23 13:45:54,200 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-23 13:45:54,215 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-23 13:45:54,215 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-23 13:45:54,290 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-23 13:45:54,290 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-23 13:45:54,290 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-23 13:45:54,290 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-23 13:45:54,290 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-23 13:45:54,291 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-23 13:45:54,291 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-23 13:45:54,291 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-23 13:45:54,291 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-23 13:45:54,291 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-23 13:45:54,291 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-23 13:45:54,291 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - End request
+WARN 2013-12-24 02:51:19,265 qtp896693169-14 org.eclipse.jetty.servlet.ServletHandler - //CluJaNuL/cmd.jsp
+java.lang.NullPointerException
+	at java.net.URLEncoder.encode(URLEncoder.java:205)
+	at java.net.URLEncoder.encode(URLEncoder.java:171)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:474)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+WARN 2013-12-24 02:51:19,328 qtp896693169-18 org.eclipse.jetty.servlet.ServletHandler - //wstats/wstats.jsp
+java.lang.NullPointerException
+	at java.net.URLEncoder.encode(URLEncoder.java:205)
+	at java.net.URLEncoder.encode(URLEncoder.java:171)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:474)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+WARN 2013-12-24 02:51:19,449 qtp896693169-18 org.eclipse.jetty.servlet.ServletHandler - //bynazi/cmd.jsp
+java.lang.NullPointerException
+	at java.net.URLEncoder.encode(URLEncoder.java:205)
+	at java.net.URLEncoder.encode(URLEncoder.java:171)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:474)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+INFO 2013-12-24 10:30:21,656 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-24 10:30:21,656 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - xRequestId: 1387877421656@127.0.0.1_55912
+INFO 2013-12-24 10:30:21,656 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-24 10:30:21,657 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-24 10:30:21,657 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-24 10:30:21,658 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-24 10:30:21,658 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-24 10:30:21,658 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML size 2083
+INFO 2013-12-24 10:30:21,658 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4198</number><date>24.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Виталий</name><email>marina@kidberries.com</email><phone>89652520477</phone><address>проспект мира территория ввц павильон 17</address></customer><recipient><name>Виталий</name><email>marina@kidberries.com</email><phone>89652520477</phone><address>проспект мира территория ввц павильон 17</address></recipient><notes><customer></customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Ранец-рюкзак на колесах школьный. &amp;#8220;Wheelpak&amp;#8221; Punch navy WLP2140 (0-3 класс, 15 литр)</name><sku>WLP2140</sku><qty>1</qty><price>6 550 руб</price><single_price>6 550 руб</single_price><weight><value>1.750</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>6 550 руб</value></total><total><name>Доставка</name><value>Курьером, в границах старой Москвы</value></total><total><name>Итого</name><value>6 550 руб</value></total></totals></document>
+
+INFO 2013-12-24 10:30:21,659 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-24 10:30:21,660 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-24 10:30:21,660 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-24 10:30:21,660 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-24 10:30:21,660 qtp896693169-17 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-24 10:30:21,661 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-24 10:30:21,661 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-24 10:30:21,661 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - xml: 2083 bytes
+INFO 2013-12-24 10:30:21,661 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-24 10:30:21,661 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-24 10:30:21,661 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-24 10:30:21,708 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-24 10:30:21,747 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-24 10:30:21,747 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-24 10:30:21,949 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-24 10:30:21,949 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-24 10:30:21,949 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-24 10:30:21,949 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-24 10:30:21,949 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-24 10:30:21,949 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-24 10:30:21,949 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-24 10:30:22,030 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-24 10:30:22,092 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-24 10:30:22,092 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-24 10:30:22,280 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-24 10:30:22,280 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-24 10:30:22,280 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-24 10:30:22,280 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-24 10:30:22,280 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-24 10:30:22,280 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-24 10:30:22,280 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-24 10:30:22,280 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-24 10:30:22,280 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-24 10:30:22,284 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-24 10:30:22,284 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-24 10:30:22,284 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-24 12:08:15,779 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-24 12:08:15,779 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - xRequestId: 1387883295779@127.0.0.1_57068
+INFO 2013-12-24 12:08:15,779 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-24 12:08:15,780 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-24 12:08:15,780 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-24 12:08:15,780 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-24 12:08:15,780 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-24 12:08:15,781 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML size 2057
+INFO 2013-12-24 12:08:15,781 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4199</number><date>24.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Анатолий, Мария</name><email>drumsic@mail.ru</email><phone>89213724672</phone><address>спб дачный проспект дом 16 корп 6 кв 58</address></customer><recipient><name>Анатолий, Мария</name><email>drumsic@mail.ru</email><phone>89213724672</phone><address>спб дачный проспект дом 16 корп 6 кв 58</address></recipient><notes><customer></customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Ранец HummingBird &amp;#8220;Spiderstyle&amp;#8221; 35938</name><sku>35938</sku><qty>1</qty><price>2 800 руб</price><single_price>2 800 руб</single_price><weight><value>0.850</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>2 800 руб</value></total><total><name>Доставка</name><value> Курьером до дома - Санкт-Петербург - (от 2 до 3 рабочих дня):  248 руб</value></total><total><name>Итого</name><value>3 048 руб</value></total></totals></document>
+
+INFO 2013-12-24 12:08:15,782 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-24 12:08:15,783 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-24 12:08:15,783 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-24 12:08:15,783 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-24 12:08:15,783 qtp896693169-17 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-24 12:08:15,783 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-24 12:08:15,783 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-24 12:08:15,783 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - xml: 2057 bytes
+INFO 2013-12-24 12:08:15,783 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-24 12:08:15,783 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-24 12:08:15,783 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-24 12:08:15,797 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-24 12:08:15,816 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-24 12:08:15,816 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-24 12:08:15,883 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-24 12:08:15,883 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-24 12:08:15,883 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-24 12:08:15,883 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-24 12:08:15,883 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-24 12:08:15,883 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-24 12:08:15,884 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-24 12:08:15,901 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-24 12:08:15,916 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-24 12:08:15,916 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-24 12:08:15,992 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-24 12:08:15,992 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-24 12:08:15,992 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-24 12:08:15,992 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-24 12:08:15,992 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-24 12:08:15,992 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-24 12:08:15,992 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-24 12:08:15,992 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-24 12:08:15,992 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-24 12:08:15,993 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-24 12:08:15,993 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-24 12:08:15,993 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-24 15:13:16,962 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-24 15:13:16,963 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - xRequestId: 1387894396963@127.0.0.1_60521
+INFO 2013-12-24 15:13:16,963 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-24 15:13:16,964 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-24 15:13:16,964 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-24 15:13:16,964 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-24 15:13:16,964 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-24 15:13:16,964 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML size 2140
+INFO 2013-12-24 15:13:16,964 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4199</number><date>24.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Анатолий, Мария</name><email>drumsic@mail.ru</email><phone>89213724672</phone><address>спб дачный проспект дом 16 корп 6 кв 58</address></customer><recipient><name>Анатолий, Мария</name><email>drumsic@mail.ru</email><phone>89213724672</phone><address>спб дачный проспект дом 16 корп 6 кв 58</address></recipient><notes><customer></customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Ранец HummingBird &amp;#8220;Spiderstyle&amp;#8221; 35938</name><sku>35938</sku><qty>1</qty><price>2 800 руб</price><single_price>2 800 руб</single_price><weight><value>0.850</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>2 800 руб</value></total><total><name>Доставка</name><value> Курьером до дома - Санкт-Петербург - (от 2 до 3 рабочих дня):  248 руб</value></total><total><name>Скидка на заказ</name><value>-250 руб</value></total><total><name>Итого</name><value>2 798 руб</value></total></totals></document>
+
+INFO 2013-12-24 15:13:16,965 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-24 15:13:16,966 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-24 15:13:16,966 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-24 15:13:16,966 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-24 15:13:16,966 qtp896693169-14 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-24 15:13:16,966 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-24 15:13:16,966 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-24 15:13:16,966 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - xml: 2140 bytes
+INFO 2013-12-24 15:13:16,967 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-24 15:13:16,967 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-24 15:13:16,967 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-24 15:13:16,982 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-24 15:13:16,999 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-24 15:13:16,999 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-24 15:13:17,066 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-24 15:13:17,066 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-24 15:13:17,066 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-24 15:13:17,066 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-24 15:13:17,067 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-24 15:13:17,067 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-24 15:13:17,067 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-24 15:13:17,083 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-24 15:13:17,098 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-24 15:13:17,098 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-24 15:13:17,229 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-24 15:13:17,229 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-24 15:13:17,229 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-24 15:13:17,229 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-24 15:13:17,229 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-24 15:13:17,229 qtp896693169-14 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-24 15:13:17,229 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-24 15:13:17,229 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-24 15:13:17,229 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-24 15:13:17,235 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-24 15:13:17,236 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-24 15:13:17,236 qtp896693169-14 ru.nic.httpfop.FOListenerServlet - End request
+WARN 2013-12-25 10:20:40,687 qtp896693169-19 org.eclipse.jetty.servlet.ServletHandler - //CluJaNuL/cmd.jsp
+java.lang.NullPointerException
+	at java.net.URLEncoder.encode(URLEncoder.java:205)
+	at java.net.URLEncoder.encode(URLEncoder.java:171)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:474)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+WARN 2013-12-25 10:20:40,755 qtp896693169-16 org.eclipse.jetty.servlet.ServletHandler - //wstats/wstats.jsp
+java.lang.NullPointerException
+	at java.net.URLEncoder.encode(URLEncoder.java:205)
+	at java.net.URLEncoder.encode(URLEncoder.java:171)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:474)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+WARN 2013-12-25 10:20:40,909 qtp896693169-14 org.eclipse.jetty.servlet.ServletHandler - //bynazi/cmd.jsp
+java.lang.NullPointerException
+	at java.net.URLEncoder.encode(URLEncoder.java:205)
+	at java.net.URLEncoder.encode(URLEncoder.java:171)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:474)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+INFO 2013-12-26 07:09:37,497 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-26 07:09:37,497 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - xRequestId: 1388038177497@127.0.0.1_49074
+INFO 2013-12-26 07:09:37,497 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-26 07:09:37,498 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-26 07:09:37,498 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-26 07:09:37,498 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-26 07:09:37,498 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-26 07:09:37,499 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML size 2025
+INFO 2013-12-26 07:09:37,499 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4200</number><date>26.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Артур</name><email>+79645341177@yandex.ru</email><phone>89645341177</phone><address>Лермонтовский проспект д10</address></customer><recipient><name>Артур</name><email>+79645341177@yandex.ru</email><phone>89645341177</phone><address>Лермонтовский проспект д10</address></recipient><notes><customer></customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Школьный ранец-рюкзак &amp;#8220;Wheelpak&amp;#8221; Base pink на колесах WLP2173 (3-5 класс, 21 литр)</name><sku>WLP2173</sku><qty>1</qty><price>6 550 руб</price><single_price>6 550 руб</single_price><weight><value>2.600</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>6 550 руб</value></total><total><name>Доставка</name><value>Курьером, в границах старой Москвы</value></total><total><name>Итого</name><value>6 550 руб</value></total></totals></document>
+
+INFO 2013-12-26 07:09:37,500 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-26 07:09:37,501 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-26 07:09:37,501 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-26 07:09:37,501 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-26 07:09:37,501 qtp896693169-16 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-26 07:09:37,502 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-26 07:09:37,502 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-26 07:09:37,502 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xml: 2025 bytes
+INFO 2013-12-26 07:09:37,502 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-26 07:09:37,502 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-26 07:09:37,502 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 07:09:37,518 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 07:09:37,533 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 07:09:37,533 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-26 07:09:37,610 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-26 07:09:37,610 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-26 07:09:37,611 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-26 07:09:37,611 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-26 07:09:37,611 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-26 07:09:37,611 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-26 07:09:37,611 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 07:09:37,625 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 07:09:37,642 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 07:09:37,642 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-26 07:09:37,719 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-26 07:09:37,719 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-26 07:09:37,719 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-26 07:09:37,719 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-26 07:09:37,719 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-26 07:09:37,719 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-26 07:09:37,720 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-26 07:09:37,720 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-26 07:09:37,720 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-26 07:09:37,720 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-26 07:09:37,720 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-26 07:09:37,720 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-26 07:19:35,857 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-26 07:19:35,857 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - xRequestId: 1388038775857@127.0.0.1_49628
+INFO 2013-12-26 07:19:35,857 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-26 07:19:35,858 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-26 07:19:35,858 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-26 07:19:35,858 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-26 07:19:35,858 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-26 07:19:35,859 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML size 1954
+INFO 2013-12-26 07:19:35,859 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4202</number><date>26.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>Ольга,Роман</name><email>jdan.olia@mail.ru</email><phone>8-926-168-4217</phone><address></address></customer><recipient><name>Ольга,Роман</name><email>jdan.olia@mail.ru</email><phone>8-926-168-4217</phone><address></address></recipient><notes><customer></customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Школьный ранец-рюкзак &amp;#8220;Wheelpak&amp;#8221; Base pink на колесах WLP2173 (3-5 класс, 21 литр)</name><sku>WLP2173</sku><qty>1</qty><price>6 550 руб</price><single_price>6 550 руб</single_price><weight><value>2.600</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>6 550 руб</value></total><total><name>Доставка</name><value>Самовывоз: г. Москва, ст.м. "Китай-город"</value></total><total><name>Итого</name><value>6 550 руб</value></total></totals></document>
+
+INFO 2013-12-26 07:19:35,860 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-26 07:19:35,861 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-26 07:19:35,861 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-26 07:19:35,861 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-26 07:19:35,861 qtp896693169-15 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-26 07:19:35,862 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-26 07:19:35,862 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-26 07:19:35,862 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - xml: 1954 bytes
+INFO 2013-12-26 07:19:35,862 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-26 07:19:35,862 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-26 07:19:35,862 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 07:19:35,881 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 07:19:35,896 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 07:19:35,896 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-26 07:19:35,979 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-26 07:19:35,979 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-26 07:19:35,979 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-26 07:19:35,980 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-26 07:19:35,980 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-26 07:19:35,980 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-26 07:19:35,980 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 07:19:35,994 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 07:19:36,008 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 07:19:36,008 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-26 07:19:36,091 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-26 07:19:36,091 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-26 07:19:36,091 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-26 07:19:36,091 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-26 07:19:36,091 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-26 07:19:36,091 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-26 07:19:36,091 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-26 07:19:36,091 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-26 07:19:36,091 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-26 07:19:36,091 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-26 07:19:36,092 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-26 07:19:36,092 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-26 07:20:43,864 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-26 07:20:43,864 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - xRequestId: 1388038843864@127.0.0.1_49669
+INFO 2013-12-26 07:20:43,864 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-26 07:20:43,866 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-26 07:20:43,866 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-26 07:20:43,866 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-26 07:20:43,866 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-26 07:20:43,866 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML size 1938
+INFO 2013-12-26 07:20:43,867 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="invoice" lang="ru_RU"><info><number>OL-4203</number><date>26.12.2013</date><status></status><payment><name></name></payment><shipping><type></type><label></label><tracking></tracking></shipping></info><company><info><logo></logo><name>Детки-ягодки</name><slogan>Магазин для мам пап и их деток</slogan><site>http://www.kidberries.com</site><address><p>Детки-Ягодки.рф</p></address><phone>+7 499 390-62-77</phone><email>com@kidberries.com</email></info></company><customer><name>клиент</name><email>marina@kidberries.com</email><phone>89161522132</phone><address></address></customer><recipient><name>клиент</name><email>marina@kidberries.com</email><phone>89161522132</phone><address></address></recipient><notes><customer></customer><personal>Спасибо за покупку! </personal><conditions>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</conditions></notes><items><item><name>Школьный ранец-рюкзак &amp;#8220;Wheelpak&amp;#8221; Base pink на колесах WLP2173 (3-5 класс, 21 литр)</name><sku>WLP2173</sku><qty>1</qty><price>6 550 руб</price><single_price>6 550 руб</single_price><weight><value>2.600</value><unit>кг</unit></weight></item></items><totals><total><name>Стоимость товаров</name><value>6 550 руб</value></total><total><name>Доставка</name><value>Самовывоз: г. Москва, ст.м. "Китай-город"</value></total><total><name>Итого</name><value>6 550 руб</value></total></totals></document>
+
+INFO 2013-12-26 07:20:43,868 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-26 07:20:43,869 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-26 07:20:43,870 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-26 07:20:43,870 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-26 07:20:43,870 qtp896693169-16 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-26 07:20:43,870 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-26 07:20:43,870 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-26 07:20:43,870 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xml: 1938 bytes
+INFO 2013-12-26 07:20:43,870 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-26 07:20:43,870 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-26 07:20:43,870 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 07:20:43,895 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 07:20:43,918 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 07:20:43,918 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-26 07:20:43,988 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-26 07:20:43,989 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-26 07:20:43,989 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-26 07:20:43,989 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-26 07:20:43,989 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-26 07:20:43,989 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-26 07:20:43,989 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 07:20:44,002 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 07:20:44,017 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 07:20:44,017 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-26 07:20:44,125 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-26 07:20:44,125 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-26 07:20:44,125 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-26 07:20:44,125 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-26 07:20:44,125 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-26 07:20:44,125 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-26 07:20:44,125 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-26 07:20:44,125 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-26 07:20:44,125 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-26 07:20:44,126 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-26 07:20:44,126 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-26 07:20:44,126 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-26 15:49:03,242 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-26 15:49:03,243 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - xRequestId: 1388069343242@127.0.0.1_54363
+INFO 2013-12-26 15:49:03,243 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-26 15:49:03,244 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-26 15:49:03,244 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-26 15:49:03,244 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-26 15:49:03,244 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-26 15:49:03,244 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML size 1481
+INFO 2013-12-26 15:49:03,244 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="invoice" lang="ru_RU">
+	<info>
+		<number>OL-12536</number>
+		<date>23.12.2013</date>
+		<status></status>
+		<payment><name>Оплата наличными, при получении</name><value/></payment>
+		<shipping>
+			<type></type>
+			<label></label>
+			<tracking></tracking>
+		</shipping>
+	</info>
+    <company>
+        <info>
+            <logo></logo>
+            <name>wheelpak.com</name>
+            <slogan></slogan>
+            <site></site>
+            <address></address>
+            <phone></phone>
+            <email></email>
+        </info>
+    </company>
+    <customer>
+        <name>Виталий </name>
+        <email></email>
+        <phone>+7-965-252-04-77</phone>
+        <address>ул. Хованская 24</address>
+    </customer>
+    <recipient>
+        <name>Виталий </name>
+        <email></email>
+        <phone>+7-965-252-04-77</phone>
+        <address>ул. Хованская 24</address>
+    </recipient>
+    <notes>
+		<customer></customer>
+		<personal></personal>
+		<conditions></conditions>
+	</notes>
+    <items></items>
+	<totals><total><name>Стоимость товаров</name><value>0&#160;&#1088;&#1091;&#1073;</value></total><total><name>Доставка</name><value>Бесплатная доставка в границах старой Москвы</value></total><total><name>Итого</name><value>7550&#160;&#1088;&#1091;&#1073;</value></total></totals>
+</document>
+

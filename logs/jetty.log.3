@@ -1,0 +1,1325 @@
+INFO 2013-12-26 15:49:03,272 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-26 15:49:03,273 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-26 15:49:03,273 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-26 15:49:03,273 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-26 15:49:03,273 qtp896693169-15 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-26 15:49:03,273 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-26 15:49:03,273 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-26 15:49:03,274 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - xml: 1481 bytes
+INFO 2013-12-26 15:49:03,274 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-26 15:49:03,274 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-26 15:49:03,274 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 15:49:03,289 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 15:49:03,304 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 15:49:03,305 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Transform
+ERROR 2013-12-26 15:49:03,413 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - FOP transform
+javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1410)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	... 49 more
+---------
+org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2013-12-26 15:49:03,414 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Error processing request
+ru.nic.httpfop.transform.TransformException: FOP transform
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1410)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	... 30 more
+Caused by: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	... 49 more
+INFO 2013-12-26 15:49:03,421 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-26 15:49:03,421 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-26 15:51:26,312 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-26 15:51:26,312 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - xRequestId: 1388069486312@127.0.0.1_54392
+INFO 2013-12-26 15:51:26,312 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-26 15:51:26,313 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-26 15:51:26,313 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-26 15:51:26,313 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-26 15:51:26,314 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-26 15:51:26,314 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML size 2387
+INFO 2013-12-26 15:51:26,314 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="invoice" lang="ru_RU">
+	<info>
+		<number>OL-4203</number>
+		<date>26.12.2013</date>
+		<status></status>
+		<payment><name>Наличными</name><value/></payment>
+		<shipping>
+			<type></type>
+			<label></label>
+			<tracking></tracking>
+		</shipping>
+	</info>
+    <company>
+        <info>
+            <logo></logo>
+            <name><p>Детки-ягодки</p>
+</name>
+            <slogan><p>Магазин для мам, пап и их деток</p>
+</slogan>
+            <site><p>детки-ягодки.рф</p>
+</site>
+            <address><p>Детки-Ягодки.рф</p>
+</address>
+            <phone><p>+7 499 390-62-77</p>
+</phone>
+            <email><p>com@kidberries.com</p>
+</email>
+        </info>
+    </company>
+    <customer>
+        <name>клиент </name>
+        <email>marina@kidberries.com</email>
+        <phone>89161522132</phone>
+        <address></address>
+    </customer>
+    <recipient>
+        <name>клиент </name>
+        <email>marina@kidberries.com</email>
+        <phone>89161522132</phone>
+        <address></address>
+    </recipient>
+    <notes>
+		<customer></customer>
+		<personal><p>Спасибо за покупку! </p>
+</personal>
+		<conditions><p>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</p>
+</conditions>
+	</notes>
+    <items><item><sku>WLP2173</sku><name>Школьный ранец-рюкзак &#8220;Wheelpak&#8221; Base pink на колесах WLP2173 (3-5 класс, 21 литр)</name><qty>1</qty><meta><dl class="variation"></dl></meta><price>6 550&#160;&#1088;&#1091;&#1073;</price><single_price>6 550&#160;&#1088;&#1091;&#1073;</single_price><weight><value>2.600</value><unit>кг</unit></weight></item></items>
+	<totals><total><name>Стоимость товаров</name><value>6 550&#160;&#1088;&#1091;&#1073;</value></total><total><name>Доставка</name><value>Самовывоз: г. Москва, ст.м. "Китай-город"</value></total><total><name>Итого</name><value>6 550&#160;&#1088;&#1091;&#1073;</value></total></totals>
+</document>
+
+INFO 2013-12-26 15:51:26,315 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-26 15:51:26,316 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-26 15:51:26,316 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-26 15:51:26,316 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-26 15:51:26,317 qtp896693169-16 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-26 15:51:26,317 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-26 15:51:26,317 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-26 15:51:26,317 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xml: 2387 bytes
+INFO 2013-12-26 15:51:26,317 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-26 15:51:26,317 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-26 15:51:26,317 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 15:51:26,334 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 15:51:26,350 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 15:51:26,350 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-26 15:51:26,436 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-26 15:51:26,436 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-26 15:51:26,436 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-26 15:51:26,436 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-26 15:51:26,436 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-26 15:51:26,436 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Second run
+INFO 2013-12-26 15:51:26,436 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 15:51:26,451 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 15:51:26,470 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 15:51:26,470 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+INFO 2013-12-26 15:51:26,541 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XSL stream source
+INFO 2013-12-26 15:51:26,541 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Closing XML stream source
+INFO 2013-12-26 15:51:26,541 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Getting page count
+INFO 2013-12-26 15:51:26,541 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - putProperty 'pageCount'='1'
+INFO 2013-12-26 15:51:26,541 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Page count = 1
+INFO 2013-12-26 15:51:26,541 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Done
+INFO 2013-12-26 15:51:26,541 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting page count
+INFO 2013-12-26 15:51:26,541 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Send reply headers
+INFO 2013-12-26 15:51:26,541 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Send reply
+INFO 2013-12-26 15:51:26,542 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Save reply to file
+INFO 2013-12-26 15:51:26,542 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-26 15:51:26,542 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-26 15:51:50,657 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-26 15:51:50,658 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - xRequestId: 1388069510658@127.0.0.1_54403
+INFO 2013-12-26 15:51:50,658 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-26 15:51:50,659 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-26 15:51:50,659 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-26 15:51:50,659 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-26 15:51:50,659 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-26 15:51:50,659 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML size 1636
+INFO 2013-12-26 15:51:50,659 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="invoice" lang="ru_RU">
+	<info>
+		<number>OL-12535</number>
+		<date>23.12.2013</date>
+		<status></status>
+		<payment><name>Оплата наличными, при получении</name><value/></payment>
+		<shipping>
+			<type></type>
+			<label></label>
+			<tracking></tracking>
+		</shipping>
+	</info>
+    <company>
+        <info>
+            <logo></logo>
+            <name>wheelpak.com</name>
+            <slogan></slogan>
+            <site></site>
+            <address></address>
+            <phone></phone>
+            <email></email>
+        </info>
+    </company>
+    <customer>
+        <name>Андрей </name>
+        <email>andreyp2001_01@mail.ru</email>
+        <phone>+79262955555</phone>
+        <address>ул.Бутлерова,7</address>
+    </customer>
+    <recipient>
+        <name>Андрей </name>
+        <email>andreyp2001_01@mail.ru</email>
+        <phone>+79262955555</phone>
+        <address>ул.Бутлерова,7</address>
+    </recipient>
+    <notes>
+		<customer>Административное здание, позвонить с проходной. В рабочие дни с 10 до 17</customer>
+		<personal></personal>
+		<conditions></conditions>
+	</notes>
+    <items></items>
+	<totals><total><name>Стоимость товаров</name><value>0&#160;&#1088;&#1091;&#1073;</value></total><total><name>Доставка</name><value>Бесплатная доставка в границах старой Москвы</value></total><total><name>Итого</name><value>5650&#160;&#1088;&#1091;&#1073;</value></total></totals>
+</document>
+
+INFO 2013-12-26 15:51:50,660 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-26 15:51:50,661 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-26 15:51:50,661 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-26 15:51:50,661 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-26 15:51:50,661 qtp896693169-17 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-26 15:51:50,661 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-26 15:51:50,661 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-26 15:51:50,661 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - xml: 1636 bytes
+INFO 2013-12-26 15:51:50,661 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-26 15:51:50,661 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-26 15:51:50,661 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 15:51:50,679 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 15:51:50,695 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 15:51:50,695 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - Transform
+ERROR 2013-12-26 15:51:50,703 qtp896693169-17 ru.nic.httpfop.transform.FopTransformer - FOP transform
+javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1410)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	... 49 more
+---------
+org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2013-12-26 15:51:50,704 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Error processing request
+ru.nic.httpfop.transform.TransformException: FOP transform
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1410)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	... 30 more
+Caused by: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	... 49 more
+INFO 2013-12-26 15:51:50,712 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-26 15:51:50,712 qtp896693169-17 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-26 15:52:14,744 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-26 15:52:14,744 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - xRequestId: 1388069534744@127.0.0.1_54409
+INFO 2013-12-26 15:52:14,744 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-26 15:52:14,745 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-26 15:52:14,745 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-26 15:52:14,745 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-26 15:52:14,745 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-26 15:52:14,746 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - XML size 1736
+INFO 2013-12-26 15:52:14,746 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="invoice" lang="ru_RU">
+	<info>
+		<number>OL-12414</number>
+		<date>16.09.2013</date>
+		<status></status>
+		<payment><name>Оплата наличными, при получении</name><value/></payment>
+		<shipping>
+			<type></type>
+			<label></label>
+			<tracking></tracking>
+		</shipping>
+	</info>
+    <company>
+        <info>
+            <logo></logo>
+            <name>wheelpak.com</name>
+            <slogan></slogan>
+            <site></site>
+            <address></address>
+            <phone></phone>
+            <email></email>
+        </info>
+    </company>
+    <customer>
+        <name>Ярослав </name>
+        <email>m.baidukova@mail.ru</email>
+        <phone>+74957726034</phone>
+        <address>Москва Васильцовский Стан дом 10 корпус 1</address>
+    </customer>
+    <recipient>
+        <name>Ярослав </name>
+        <email>m.baidukova@mail.ru</email>
+        <phone>+74957726034</phone>
+        <address>Москва Васильцовский Стан дом 10 корпус 1</address>
+    </recipient>
+    <notes>
+		<customer>Необходимо предварительно созвониться, договориться о времени доставки</customer>
+		<personal></personal>
+		<conditions></conditions>
+	</notes>
+    <items></items>
+	<totals><total><name>Стоимость товаров</name><value>0&#160;&#1088;&#1091;&#1073;</value></total><total><name>Доставка</name><value>Бесплатная доставка в границах старой Москвы</value></total><total><name>Итого</name><value>7300&#160;&#1088;&#1091;&#1073;</value></total></totals>
+</document>
+
+INFO 2013-12-26 15:52:14,747 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-26 15:52:14,748 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-26 15:52:14,748 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-26 15:52:14,748 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-26 15:52:14,748 qtp896693169-18 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-26 15:52:14,748 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-26 15:52:14,748 qtp896693169-18 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-26 15:52:14,748 qtp896693169-18 ru.nic.httpfop.transform.FopTransformer - xml: 1736 bytes
+INFO 2013-12-26 15:52:14,748 qtp896693169-18 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-26 15:52:14,748 qtp896693169-18 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-26 15:52:14,748 qtp896693169-18 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 15:52:14,764 qtp896693169-18 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 15:52:14,780 qtp896693169-18 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 15:52:14,780 qtp896693169-18 ru.nic.httpfop.transform.FopTransformer - Transform
+ERROR 2013-12-26 15:52:14,789 qtp896693169-18 ru.nic.httpfop.transform.FopTransformer - FOP transform
+javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1410)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	... 49 more
+---------
+org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2013-12-26 15:52:14,790 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Error processing request
+ru.nic.httpfop.transform.TransformException: FOP transform
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1410)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	... 30 more
+Caused by: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	... 49 more
+INFO 2013-12-26 15:52:14,796 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-26 15:52:14,796 qtp896693169-18 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-26 15:56:05,358 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-26 15:56:05,359 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - xRequestId: 1388069765358@127.0.0.1_54462
+INFO 2013-12-26 15:56:05,359 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-26 15:56:05,360 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-26 15:56:05,360 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-26 15:56:05,360 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-26 15:56:05,360 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-26 15:56:05,360 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML size 2016
+INFO 2013-12-26 15:56:05,360 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="invoice" lang="ru_RU">
+	<info>
+		<number>OL-12536</number>
+		<date>23.12.2013</date>
+		<status></status>
+		<payment><name>Оплата наличными, при получении</name><value/></payment>
+		<shipping>
+			<type></type>
+			<label></label>
+			<tracking></tracking>
+		</shipping>
+	</info>
+    <company>
+        <info>
+            <logo></logo>
+            <name><p>ООО ВИЛПАК</p>
+</name>
+            <slogan><p>Официальный дистрибютор</p>
+</slogan>
+            <site><p>www.wheelpak.com</p>
+</site>
+            <address><p>www.wheelpak.com</p>
+</address>
+            <phone><p>233</p>
+</phone>
+            <email><p>com@wheelpak.com</p>
+</email>
+        </info>
+    </company>
+    <customer>
+        <name>Виталий </name>
+        <email></email>
+        <phone>+7-965-252-04-77</phone>
+        <address>ул. Хованская 24</address>
+    </customer>
+    <recipient>
+        <name>Виталий </name>
+        <email></email>
+        <phone>+7-965-252-04-77</phone>
+        <address>ул. Хованская 24</address>
+    </recipient>
+    <notes>
+		<customer></customer>
+		<personal><p>Спасибо за покупку! </p>
+</personal>
+		<conditions><p>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</p>
+</conditions>
+	</notes>
+    <items></items>
+	<totals><total><name>Стоимость товаров</name><value>0&#160;&#1088;&#1091;&#1073;</value></total><total><name>Доставка</name><value>Бесплатная доставка в границах старой Москвы</value></total><total><name>Итого</name><value>7550&#160;&#1088;&#1091;&#1073;</value></total></totals>
+</document>
+
+INFO 2013-12-26 15:56:05,362 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-26 15:56:05,363 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-26 15:56:05,363 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-26 15:56:05,363 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-26 15:56:05,363 qtp896693169-16 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-26 15:56:05,363 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-26 15:56:05,363 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-26 15:56:05,363 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xml: 2016 bytes
+INFO 2013-12-26 15:56:05,363 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-26 15:56:05,363 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-26 15:56:05,363 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 15:56:05,380 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 15:56:05,399 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 15:56:05,399 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - Transform
+ERROR 2013-12-26 15:56:05,409 qtp896693169-16 ru.nic.httpfop.transform.FopTransformer - FOP transform
+javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1410)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	... 49 more
+---------
+org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2013-12-26 15:56:05,411 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Error processing request
+ru.nic.httpfop.transform.TransformException: FOP transform
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1410)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	... 30 more
+Caused by: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	... 49 more
+INFO 2013-12-26 15:56:05,420 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - Closing streams
+INFO 2013-12-26 15:56:05,420 qtp896693169-16 ru.nic.httpfop.FOListenerServlet - End request
+INFO 2013-12-26 15:56:36,105 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Got request
+INFO 2013-12-26 15:56:36,107 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - xRequestId: 1388069796107@127.0.0.1_54468
+INFO 2013-12-26 15:56:36,107 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Searching for XML
+INFO 2013-12-26 15:56:36,108 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml
+INFO 2013-12-26 15:56:36,108 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML found. Searching for XSL
+INFO 2013-12-26 15:56:36,108 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Found in multipart body, sub content name: xml-xsl
+INFO 2013-12-26 15:56:36,109 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Accept: application/pdf
+INFO 2013-12-26 15:56:36,109 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML size 2016
+INFO 2013-12-26 15:56:36,109 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML 
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="invoice" lang="ru_RU">
+	<info>
+		<number>OL-12536</number>
+		<date>23.12.2013</date>
+		<status></status>
+		<payment><name>Оплата наличными, при получении</name><value/></payment>
+		<shipping>
+			<type></type>
+			<label></label>
+			<tracking></tracking>
+		</shipping>
+	</info>
+    <company>
+        <info>
+            <logo></logo>
+            <name><p>ООО ВИЛПАК</p>
+</name>
+            <slogan><p>Официальный дистрибютор</p>
+</slogan>
+            <site><p>www.wheelpak.com</p>
+</site>
+            <address><p>www.wheelpak.com</p>
+</address>
+            <phone><p>233</p>
+</phone>
+            <email><p>com@wheelpak.com</p>
+</email>
+        </info>
+    </company>
+    <customer>
+        <name>Виталий </name>
+        <email></email>
+        <phone>+7-965-252-04-77</phone>
+        <address>ул. Хованская 24</address>
+    </customer>
+    <recipient>
+        <name>Виталий </name>
+        <email></email>
+        <phone>+7-965-252-04-77</phone>
+        <address>ул. Хованская 24</address>
+    </recipient>
+    <notes>
+		<customer></customer>
+		<personal><p>Спасибо за покупку! </p>
+</personal>
+		<conditions><p>Вещь из нашего магазина вы можете вернуть  в течении 14 дней, если она останется не ношенной, не стиранной, так-же сохранив все приложенные этикетки, элементы упаковки и саму упаковку.</p>
+</conditions>
+	</notes>
+    <items></items>
+	<totals><total><name>Стоимость товаров</name><value>0&#160;&#1088;&#1091;&#1073;</value></total><total><name>Доставка</name><value>Бесплатная доставка в границах старой Москвы</value></total><total><name>Итого</name><value>7550&#160;&#1088;&#1091;&#1073;</value></total></totals>
+</document>
+
+INFO 2013-12-26 15:56:36,110 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Searching intraction 'doCyrillicTages'
+INFO 2013-12-26 15:56:36,111 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Searching intraction 'fo'
+INFO 2013-12-26 15:56:36,111 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - XML found true; XSL found true; FO found false
+INFO 2013-12-26 15:56:36,111 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Getting transformer object
+INFO 2013-12-26 15:56:36,111 qtp896693169-15 ru.nic.httpfop.transform.XMLTransformerFactory - Instantiating transformer requestedOutputFormat=application/pdf class=ru.nic.httpfop.transform.FopTransformer mimeType=application/pdf
+INFO 2013-12-26 15:56:36,111 qtp896693169-15 ru.nic.httpfop.FOListenerServlet - Start transform
+INFO 2013-12-26 15:56:36,111 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Loading input xml & xsl
+INFO 2013-12-26 15:56:36,111 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - xml: 2016 bytes
+INFO 2013-12-26 15:56:36,111 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - xsl: 21859 bytes
+INFO 2013-12-26 15:56:36,111 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - fop Transforming...
+INFO 2013-12-26 15:56:36,111 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Factory
+INFO 2013-12-26 15:56:36,133 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - XSL stream source
+INFO 2013-12-26 15:56:36,150 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - XML stream source
+INFO 2013-12-26 15:56:36,150 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - Transform
+ERROR 2013-12-26 15:56:36,161 qtp896693169-15 ru.nic.httpfop.transform.FopTransformer - FOP transform
+javax.xml.transform.TransformerException: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1410)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	... 49 more
+---------
+org.apache.fop.fo.ValidationException: "fo:table-body" is missing child elements. Required content model: marker* (table-row+|table-cell+) (No context info available)
+	at org.apache.fop.events.ValidationExceptionFactory.createException(ValidationExceptionFactory.java:38)
+	at org.apache.fop.events.EventExceptionManager.throwException(EventExceptionManager.java:54)
+	at org.apache.fop.events.DefaultEventBroadcaster$1.invoke(DefaultEventBroadcaster.java:175)
+	at com.sun.proxy.$Proxy0.missingChildElement(Unknown Source)
+	at org.apache.fop.fo.FONode.missingChildElementError(FONode.java:563)
+	at org.apache.fop.fo.flow.table.TablePart.finalizeNode(TablePart.java:114)
+	at org.apache.fop.fo.FONode.endOfNode(FONode.java:326)
+	at org.apache.fop.fo.flow.table.TableBody.endOfNode(TableBody.java:48)
+	at org.apache.fop.fo.FOTreeBuilder$MainFOHandler.endElement(FOTreeBuilder.java:349)
+	at org.apache.fop.fo.FOTreeBuilder.endElement(FOTreeBuilder.java:177)
+	at org.apache.xml.serializer.ToXMLSAXHandler.endElement(ToXMLSAXHandler.java:261)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1399)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.templates.ElemLiteralResult.execute(ElemLiteralResult.java:1374)
+	at org.apache.xalan.transformer.TransformerImpl.executeChildTemplates(TransformerImpl.java:2411)
+	at org.apache.xalan.transformer.TransformerImpl.applyTemplateToNode(TransformerImpl.java:2281)
+	at org.apache.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:1367)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:709)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1284)
+	at org.apache.xalan.transformer.TransformerImpl.transform(TransformerImpl.java:1262)
+	at ru.nic.httpfop.transform.FopTransformer.transformAction(Unknown Source)
+	at ru.nic.httpfop.transform.FopTransformer.transform(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doWork(Unknown Source)
+	at ru.nic.httpfop.FOListenerServlet.doPost(Unknown Source)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:594)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:119)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:499)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:250)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:642)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:609)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:45)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+	at java.lang.Thread.run(Thread.java:722)
