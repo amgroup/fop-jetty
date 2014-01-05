@@ -1,3 +1,0 @@
-WARN 2014-01-04 17:38:23,783 qtp896693169-18 org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
-WARN 2014-01-04 17:38:23,789 qtp896693169-18 org.apache.fop.apps.FOUserAgent - The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (No context info available)
-WARN 2014-01-04 17:38:23,813 qtp896693169-18 org.apache.fop.apps.FOUserAgent - Content overflows the viewport of the fo:region-before on page 1 in block-progression direction by 30893 millipoints. (No context info available)
